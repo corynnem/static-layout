@@ -240,7 +240,12 @@ text-align: center;
 display: inline-block;
 width: 30%;
 justify-content: space-between;
+display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex: 0 1 24%;
 }
+
 .box1:hover {
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -252,6 +257,10 @@ text-align: center;
 display: inline-block;
 width: 30%;
 justify-content: space-between;
+display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex: 0 1 24%;
 }
 .box2:hover {
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -264,6 +273,11 @@ text-align: center;
 display: inline-block;
 width: 30%;
 justify-content: space-between;
+display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex: 0 1 24%;
+
 }
 .box3:hover {
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -273,9 +287,10 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .courseInfo{
-    text-align: center;
-    color: #538eed;
+text-align: center;
+color: #538eed;
 }
 .backgroundCards{
-    background-color: ;
+background-color: ;
+
 }
