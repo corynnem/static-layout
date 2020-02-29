@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css?family=Barlow:400,600,600i|Belleza|Crimson+Text:400,600|Overpass:400,400i,600,600i,700,700i,800,900"
         rel="stylesheet">
     <title>Indy Nonprofit Coding Bootcamp</title>
+
 </head>
 
 <body>
@@ -20,45 +21,49 @@
                 <ul>
                     <li class='imageLi'><img id='image' src='assets /efa.png'></li>
                     <li class='efa'>Eleven Fifty Academy</li>
-                    <li class='hover'><a href="https://elevenfifty.org/courses/">Courses</a></li>
-                    <li class='hover'><a href="https://elevenfifty.org/admissions/">Admissions</a></li>
-                    <li class='hover'><a href="https://elevenfifty.org/veterans/">Veterans</a></li>
-                    <li class='hover'><a href="https://elevenfifty.org/about/">About</a></li>
-                    <li class='hover'><a href="https://elevenfifty.org/partners/">Employers</a></li>
-                    <li class='hover'><img src='./assets /magnifying-glass-icon-png-14-original.png' height="20pxxpx"
-                            width="20px" style="color: white"></li>
+
                     <li class='hover' id='getStarted'><a href="https://elevenfifty.org/get-started/">Get Started</a>
                     </li>
+                    <li class='hover'><img src='./assets /magnifying-glass-icon-png-14-original.png' height="20px"
+                            width="20px" style="color: white"></li>
+                    <li class='hover'><a href="https://elevenfifty.org/partners/">Employers</a></li>
+                    <li class='hover'><a href="https://elevenfifty.org/about/">About</a></li>
+                    <li class='hover'><a href="https://elevenfifty.org/veterans/">Veterans</a></li>
+                    <li class='hover'><a href="https://elevenfifty.org/admissions/">Admissions</a></li>
+                    <li class='hover'><a href="https://elevenfifty.org/courses/">Courses</a></li>
                 </ul>
             </nav>
         </div>
-        <div id = 'fullScreen'>
-            <video id='efaVideo' loop="" muted="" autoplay=""
-                poster="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/mobile.jpg"
-                class="fullscreen-bg__video">
-                <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.webm"
-                    type="video/webm">
-                <!-- <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.mp4" type="video/mp4"> -->
-                <!-- <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.ogv" type="video/ogg"> -->
-            </video>
-            <!-- <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.webm" type="video/webm"> -->
-        <div id= videoText>
-                        <div class='recode' id='recode'>
-                            <h1 style=font-size:60px>RECODE YOUR FUTURE</h1style>
-                        </div>
-            
-                        <div id='findCourse'>
-                            <button>
-                                <h2 class='h2'style=font-size:30px>FIND YOUR COURSE  ></h2>
-                            </button>
-                        </div>
-                    
-            
-                    <div id=lifeSux>
-                        <img src='assets /down-arrowhead-in-a-circle.svg' class="filter-white" />
-                    </div>
-                
+        <div id='fullScreen'>
+            <div id="video-container">
+
+                <video id='efaVideo' loop="" muted="" autoplay=""
+                    poster="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/mobile.jpg"
+                    class="fullscreen-bg__video">
+                    <source
+                        src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.webm"
+                        type="video/webm">
+                    <!-- <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.mp4" type="video/mp4"> -->
+                    <!-- <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.ogv" type="video/ogg"> -->
+                </video>
             </div>
+            <!-- <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.webm" type="video/webm"> -->
+            <div id=videoText>
+                <div class='recode' id='recode'>
+                    <h1 style=font-size:60px>RECODE YOUR FUTURE</h1style>
+                </div>
+
+                <div id='findCourse'>
+                    <button>
+                        <h2 class='h2' style=font-size:30px>FIND YOUR COURSE ></h2>
+                    </button>
+                </div>
+            </div>
+
+            <!-- <div id=arrowSvg>
+                <img  src='assets /down-arrowhead-in-a-circle.svg'/>
+                class="filter-white"
+            </div> -->
         </div>
 
 
@@ -66,35 +71,41 @@
     </div>
 
     <br>
+    <br><br>
 
-    <div class='backgroundCards'>
+    <div class='courseSection'>
         <div>
-            <h1 class="courseInfo">COURSE INFORMATION</h1>
+            <h1 style=font-size:50px id="courseInfo">COURSE INFORMATION</h1>
         </div>
+        <div class="backgroundCards">
 
-        <div class='box1'>
-            <h2 style=font-size:30px>Free Intro Courses</h2>
-            
-            <h3> Want to learn if you'd enjoy a career in coding or cybersecurity? Sign up to attend one of our FREE
-                intro courses to find out! SIGN UP NOW Full-Time 12/14-Week </h3>
-                <button class='cardButton'>SIGN UP NOW</button>
-        </div>
+            <div class='box1'>
+                <h2 class='text' style=font-size:200%>Free Intro Courses</h2>
 
-        <div class='box2'>
-                <H2 style=font-size:30px>Full-Time 12/14-Week Courses</H2>
-                    <h3>Learn today’s most relevant software development or cybersecurity skills to kick off a new career in the
-                    tech industry.</h3>
-                <button class='cardButton'>FULL-TIME COURSES</button>
-           
-        </div>
+                <h3> Want to learn if you'd enjoy a career in coding or cybersecurity? Sign up to attend one of our FREE
+                    intro courses to find out!</h3>
+                <button class='cardButton'style=font-size:125% ><b>SIGN UP NOW ></b></button>
+            </div>
 
-        <div class='box3'>
-            <h2 style=font-size:30px> Part-Time 24-Week Courses</h2>
-            <h3>the flexibility to work while attending class virtually and on-site. Make money and change careers at
-                the same time.</h3>
-            <button class='cardButton'>PART-TIME COURSES</button>
+            <div class='box1'>
+                <H2 class='text' style=font-size:200%>Full-Time 12/14-Week Courses</H2>
+                <h3>Learn today’s most relevant software development or cybersecurity skills to kick off a new career in
+                    the tech industry.</h3>
+                <button class='cardButton' style=font-size:125% ><b>FULL-TIME COURSES ></b></button>
+
+            </div>
+
+            <div class='box1'>
+                <h2 class='text' style=font-size:200%> Part-Time 24-Week Courses</h2>
+                <h3>the flexibility to work while attending class virtually and on-site. Make money and change careers
+                    at the same time.</h3>
+                <button class='cardButton' style=font-size:125% ><b>PART-TIME COURSES ></b></button>
+            </div>
         </div>
     </div>
+    <br><br><br><br><br><br><br><br>
+
+
 </body>
 
 </html>
