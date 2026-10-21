@@ -1,6 +1,8 @@
 # Static Layout: Eleven Fifty Academy Homepage Clone
 
-My first coding project. I built it in February 2020 as the **Gold Badge** project for the Eleven Fifty Academy coding bootcamp. The assignment was to recreate the layout of a real website with plain HTML and CSS, and I picked the Eleven Fifty Academy homepage.
+My first coding project!
+
+I built it in February 2020 as the **Gold Badge** project for the Eleven Fifty Academy coding bootcamp. The assignment was to recreate the layout of a real website with plain HTML and CSS, and I picked the Eleven Fifty Academy homepage. I keep it up as a token to remember how far I've come :)
 
 **Live site:** https://corynnem.github.io/static-layout/
 
@@ -16,7 +18,7 @@ My first coding project. I built it in February 2020 as the **Gold Badge** proje
 - CSS3: Flexbox, `position: fixed/absolute`, hover states and box shadows
 - Google Fonts (Overpass)
 
-No frameworks, build tools or JavaScript.
+No frameworks, build tools or JavaScript. It's just as it says: A Static Layout! 
 
 ## Running it
 
